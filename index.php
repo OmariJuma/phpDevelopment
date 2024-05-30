@@ -71,7 +71,18 @@
             return $age;
         }
         ?>
-        My daugther is <?php echo showAge($age)?> years old
+        My daugther is <?php echo showAge($age)." years old"."<br/>"?> 
+        <?php 
+        $isTall = false;
+        $price = 20_000_000;
+        $length = 11.5e-2;
+        echo var_dump($isTall)."<br/>";
+        echo var_dump($price)."<br/>";
+        echo var_dump($length)."<br/>";
+        echo php_sapi_name();
+        
+
+        ?>
     </p>
 </body>
 
